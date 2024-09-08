@@ -233,7 +233,7 @@ export default function Home() {
           }}
         >
           <Typography variant="body2" color="textSecondary">
-            © 2024 Wale Ogundeji. All rights reserved.
+            © { (new Date()).getFullYear === 2023 ? 2023 : `'2023 ' - ${(new Date()).getFullYear}` } Wale Ogundeji. All rights reserved.
           </Typography>
         </Box>
       </Container>
